@@ -1,0 +1,274 @@
+body {
+    background-color: I#f1f1f1;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+    height: 100%;
+}
+header {
+    background-color: #fff;
+    padding: 15px ;
+    box-shadow: 0 0 20px #000;
+}
+
+header li img {
+    width: 180px;
+    float: left;
+}
+
+header li {
+    display: inline;
+    padding-left: 45px ;
+    font-size: 18px ;
+}
+
+header li a {
+    color: #333a33;
+    text-decoration: none !important;
+    padding: 20px !important;
+    transition: 0.3s ease !important; 
+    margin-top: 20px !important;
+    line-height: 2.5 !important;
+}
+header li a:hover {
+    color: #1e201e;
+}
+
+.body-main-content {
+    background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.body-main-content h1 {
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    letter-spacing: 12px;
+    font-size: 72px;
+    margin: 0px !important;
+}
+
+.body-main-content p {
+    text-align: center;
+    padding-bottom: 250px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 48px;
+    margin: 0px !important;
+}
+
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+/**
+* Contact 
+*/
+
+.contact-form {
+    width: 500px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 #999;
+    /* position: absolute; */
+    margin: 5% 33% 8% 33%;
+    padding: 12px;
+    
+}
+
+form {
+    margin: 30px;
+}
+
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+}
+.textarea-field
+{
+   height: 150px;
+   padding-top: 10px;
+}
+
+.btn
+{
+     border-radius: 20px;
+     color: #fff;
+     margin-top: 18px;
+     padding: 10px;
+     background-color: #47c35a;
+     font-size: 12px;
+     border: none;
+     cursor: pointer; 
+    }
+
+
+.blurb h2 {
+    color: #333a33;
+    font-weight: 100;
+    font-size: 2.5rem;
+ }
+ 
+ .blurb p {
+     color: #3f3f3f;
+     font-weight: 100;
+     font-size: 1.125rem;
+     line-height: 2;
+ }
+ 
+ .content {
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+
+ 
+.container {
+    margin: 20px 40px;
+    color: #3f3f3f;
+  }
+  
+  .heading {
+    font-size: 60px;
+    color: #333a33;
+  }
+  
+  .heading span {
+    font-style: italic;
+    font-size: 30px;
+  }
+  
+  .profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+  }
+  
+  .profile {
+    flex-basis: 260px;
+  }
+  
+  .profile .profile-img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .profile:hover .profile-img {
+    filter: grayscale(0);
+  }
+  
+  .user-name {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+  
+  .profile h5 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #333a33;
+  }
+  
+  .profile p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  
+  @media only screen and (max-width: 1150px) {
+    .profiles {
+      flex-direction: column;
+    }
+  
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile p {
+      text-align: center;
+      margin: 20px 60px 80px 60px;
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .heading {
+      font-size: 40px;
+      color: black;
+      text-align: center;
+    }
+  
+    .heading span {
+      font-size: 15px;
+    }
+  
+    .profiles {
+      margin: 20px 0;
+    }
+  
+    .profile p {
+      margin: 20px 10px 80px 10px;
+    }
+  }
+  
